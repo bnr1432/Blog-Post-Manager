@@ -1,0 +1,117 @@
+.post-card {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 16px 0;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.post-image {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.comments-section {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 12px;
+}
+
+.comment-list {
+  max-height: 150px; /* Limit visible height */
+  overflow-y: auto;  /* Scroll when overflowing */
+  padding-right: 5px;
+}
+
+.comments-section h4 {
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.comment {
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #007bff;
+  border-radius: 4px;
+}
+
+.comment strong {
+  color: #333;
+}
+
+.comment button {
+  margin-left: 8px;
+  padding: 2px 6px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  border: none;
+  background-color: #eee;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.comment button:hover {
+  background-color: #ddd;
+}
+
+.add-comment {
+  display: flex;
+  margin-top: 10px;
+  gap: 8px;
+}
+
+.add-comment input {
+  flex: 1;
+  padding: 6px 10px;
+  font-size: 0.95rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.add-comment button {
+  padding: 6px 12px;
+  font-size: 0.95rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.add-comment button:hover {
+  background-color: #0056b3;
+}
+
+
+.post-content {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Show only 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 8px;
+  transition: all 0.3s ease;
+}
+
+.post-content.expanded {
+  -webkit-line-clamp: unset;
+  max-height: none;
+}
+.view-toggle {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.view-toggle:hover {
+  text-decoration: underline;
+}

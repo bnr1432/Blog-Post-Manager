@@ -1,0 +1,55 @@
+.forgot-reset-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.forgot-reset-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.forgot-reset-form input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.forgot-reset-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.forgot-reset-form button:hover {
+  background-color: #45a049;
+}
+
+.forgot-reset-back {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.forgot-reset-back a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot-reset-back a:hover {
+  text-decoration: underline;
+}
